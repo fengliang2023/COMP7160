@@ -16,7 +16,7 @@ if __name__ == "__main__":
         obj.main()
     if estimate_audio:
         para_dic = {
-        "estimate_audio_file": "test4.wav",    # The filename of estimated audio file
+        "estimate_audio_file": "test.wav",    # The filename of estimated audio file
         "save_file_dir" : "./",    # The directory for results
         "duration_noise": 5,    # The length of the initial noise to removed(in seconds)
         "len_each_segment": 4,    # The total length of each segment sample to estimate CIR image (in seconds)
